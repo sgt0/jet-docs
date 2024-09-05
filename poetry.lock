@@ -1315,6 +1315,7 @@ python-versions = "*"
 files = [
     {file = "PyQt6_Qt6-6.7.2-py3-none-macosx_10_14_x86_64.whl", hash = "sha256:065415589219a2f364aba29d6a98920bb32810286301acbfa157e522d30369e3"},
     {file = "PyQt6_Qt6-6.7.2-py3-none-macosx_11_0_arm64.whl", hash = "sha256:7f817efa86a0e8eda9152c85b73405463fbf3266299090f32bbb2266da540ead"},
+    {file = "PyQt6_Qt6-6.7.2-py3-none-manylinux_2_28_aarch64.whl", hash = "sha256:05f2c7d195d316d9e678a92ecac0252a24ed175bd2444cc6077441807d756580"},
     {file = "PyQt6_Qt6-6.7.2-py3-none-manylinux_2_28_x86_64.whl", hash = "sha256:fc93945eaef4536d68bd53566535efcbe78a7c05c2a533790a8fd022bac8bfaa"},
     {file = "PyQt6_Qt6-6.7.2-py3-none-win_amd64.whl", hash = "sha256:b2d7e5ddb1b9764cd60f1d730fa7bf7a1f0f61b2630967c81761d3d0a5a8a2e0"},
 ]
@@ -1760,20 +1761,19 @@ files = []
 develop = false
 
 [package.dependencies]
+numpy = ">=2.1.1"
 VapourSynth = ">=68"
-vsaa = ">=1.10.0"
 vsexprtools = ">=1.6.0"
 vskernels = ">=3.2.0"
 vsmasktools = ">=1.3.0"
-vsrgtools = ">=1.7.0"
-vsscale = ">=2.1.0"
 vstools = ">=3.2.0"
+vstransitions = ">=0.1.1"
 
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-adjust.git"
-reference = "2e2078f11665e3b7dc555bc63256ace9dafd268a"
-resolved_reference = "2e2078f11665e3b7dc555bc63256ace9dafd268a"
+reference = "cefd66ae932d2d5feec6a52a57f8a447178fa1b3"
+resolved_reference = "cefd66ae932d2d5feec6a52a57f8a447178fa1b3"
 
 [[package]]
 name = "vsdeband"
@@ -2157,4 +2157,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "88cb61a83ca3bc6268d3b3eaa0f90175ee7376e3a22ca17e542accfacb754bca"
+content-hash = "c85621a19d5895d539fa8a3e62f67f3b30ff23b6fc942e879f05f357b50eb8bb"
