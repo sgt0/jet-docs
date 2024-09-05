@@ -1,0 +1,85 @@
+[project]
+name = "jet-docs"
+version = "0.0.0"
+description = "unofficial JET API docs"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv]
+package = false
+dev-dependencies = [
+    "black>=24.8.0",
+    "mkdocs-gen-files>=0.5.0",
+    "mkdocs-literate-nav>=0.6.1",
+    "mkdocs-material>=9.5.34",
+    "mkdocs-minify-plugin>=0.8.0",
+    "mkdocs-redirects>=1.2.1",
+    "mkdocstrings[python]>=0.26.0",
+    "mypy>=1.11.2",
+    "ruff>=0.6.3",
+    "vsaa",
+    "vsdeband",
+    "vsdehalo",
+    "vsdeinterlace",
+    "vsdenoise",
+    "vsexprtools",
+    "vskernels",
+    "vsmasktools",
+    "vspreview",
+    "vspyplugin",
+    "vsrgtools",
+    "vsscale",
+    "vssource",
+    "vstools",
+]
+
+[tool.uv.sources]
+vsaa = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-aa.git", rev = "3a4b0a27d4e705300c035575d3374cca7a021a70" }
+vsdeband = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-deband.git", rev = "f947f902daeed68da9cb2dd513b45268f0574afe" }
+vsdehalo = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-dehalo.git", rev = "c1a982050d057843151c42f688fe4d4193366a8e" }
+vsdeinterlace = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-deinterlace.git", rev = "12d457c36b1c7fa01364a041e4fce1a224d3ba68" }
+vsdenoise = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-denoise.git", rev = "1ff373eff3a7b1957c0c64ee8c1d8e188f58c27a" }
+vsexprtools = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-exprtools.git", rev = "3f1983d3877e130cebd8c255f642d39f7b4c095a" }
+vskernels = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-kernels.git", rev = "e7a52925ae83a734509f161275f646b8307a9e52" }
+vsmasktools = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-masktools.git", rev = "07dacc3e784889c86a528403061173fe0201cfa6" }
+vspreview = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-preview.git", rev = "e048ce1ae4d59dbea7f0ccbff8a22bc2a8637a34" }
+vspyplugin = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-pyplugin.git", rev = "d77cceb042bcf86bc2c7d025e8920379a1487b58" }
+vsrgtools = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-rgtools.git", rev = "566714484bfca556a728445b2dcc137fcf01ccc4" }
+vsscale = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-scale.git", rev = "a3372a9f925c628505a69d62c6e1ddfd9fb2a7e8" }
+vssource = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-source.git", rev = "2373331255014a66f4c046aa7c7605bf78005f1c" }
+vstools = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-tools.git", rev = "450c52ae26faf66a6191e650b7aaa10badbc629f" }
+
+[tool.mypy]
+check_untyped_defs = true
+color_output = true
+disallow_any_generics = true
+disallow_incomplete_defs = true
+disallow_subclassing_any = true
+disallow_untyped_calls = true
+disallow_untyped_decorators = true
+disallow_untyped_defs = true
+error_summary = true
+no_implicit_optional = true
+pretty = true
+show_column_numbers = true
+show_error_codes = true
+show_error_context = false
+warn_redundant_casts = true
+warn_return_any = true
+warn_unreachable = true
+warn_unused_configs = true
+warn_unused_ignores = true
+
+[tool.ruff]
+line-length = 80
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+    "D",       # pydocstyle
+    "FIX002",  # Line contains TODO, consider resolving the issue.
+    "INP001",
+    "TD002",   # Missing author in TODO.
+    "TD003",   # Missing issue link on the line following this TODO.
+]
