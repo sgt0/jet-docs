@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: windows-2022
     env:
       PROD: true
     steps:
@@ -47,7 +47,7 @@ jobs:
           path: site
 
   mypy:
-    runs-on: ubuntu-22.04
+    runs-on: windows-2022
     steps:
       - name: Checkout code
         uses: actions/checkout@v4.1.6
@@ -68,7 +68,7 @@ jobs:
         continue-on-error: true # TODO: currently dies on vs-deband.
 
   ruff:
-    runs-on: ubuntu-22.04
+    runs-on: windows-2022
     steps:
       - name: Checkout code
         uses: actions/checkout@v4.1.6
