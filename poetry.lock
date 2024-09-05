@@ -1924,13 +1924,14 @@ VapourSynth = ">=68"
 vsexprtools = ">=1.6.0"
 vskernels = ">=3.2.0"
 vsrgtools = ">=1.7.0"
+vssource = ">=0.11.0"
 vstools = ">=3.2.0"
 
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-masktools.git"
-reference = "07dacc3e784889c86a528403061173fe0201cfa6"
-resolved_reference = "07dacc3e784889c86a528403061173fe0201cfa6"
+reference = "eb4bf7e16ce1420af8e830055be5d08f31ad339b"
+resolved_reference = "eb4bf7e16ce1420af8e830055be5d08f31ad339b"
 
 [[package]]
 name = "vspreview"
@@ -2111,4 +2112,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "ae99c01836bc7760077abd0095264fc40efb02db5740cf9f0c70261c080389f8"
+content-hash = "a21973abe2ebf91136de3c45afbe6237af2564f3e22de4acb2a38a1450f12d81"
