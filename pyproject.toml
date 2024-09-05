@@ -6,35 +6,23 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
 
-[tool.uv]
-package = false
-dev-dependencies = [
-    "black>=24.8.0",
-    "mkdocs-gen-files>=0.5.0",
-    "mkdocs-literate-nav>=0.6.1",
-    "mkdocs-material>=9.5.34",
-    "mkdocs-minify-plugin>=0.8.0",
-    "mkdocs-redirects>=1.2.1",
-    "mkdocstrings[python]>=0.26.0",
-    "mypy>=1.11.2",
-    "ruff>=0.6.3",
-    "vsaa",
-    "vsdeband",
-    "vsdehalo",
-    "vsdeinterlace",
-    "vsdenoise",
-    "vsexprtools",
-    "vskernels",
-    "vsmasktools",
-    "vspreview",
-    "vspyplugin",
-    "vsrgtools",
-    "vsscale",
-    "vssource",
-    "vstools",
-]
+[tool.poetry]
+package-mode = false
 
-[tool.uv.sources]
+[tool.poetry.dependencies]
+python = ">=3.12"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+mkdocs-gen-files = "^0.5.0"
+mkdocs-literate-nav = "^0.6.1"
+mkdocs-material = "^9.5.34"
+mkdocs-minify-plugin = "^0.8.0"
+mkdocs-redirects = "^1.2.1"
+mkdocstrings = { version = "^0.26.0", extras = ["python"] }
+mypy = "^1.11.2"
+ruff = "^0.6.3"
+
 vsaa = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-aa.git", rev = "3a4b0a27d4e705300c035575d3374cca7a021a70" }
 vsdeband = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-deband.git", rev = "f947f902daeed68da9cb2dd513b45268f0574afe" }
 vsdehalo = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-dehalo.git", rev = "c1a982050d057843151c42f688fe4d4193366a8e" }

@@ -1,4 +1,5 @@
 site_name: unofficial JET API docs
+site_url: https://sgt0.github.io/jet-docs/
 
 theme:
   direction: ltr
@@ -37,6 +38,7 @@ extra_css:
   - css/extra.css
 
 plugins:
+- privacy
 - search
 - gen-files:
     scripts:

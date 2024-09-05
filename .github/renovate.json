@@ -5,5 +5,7 @@
     ":disableDependencyDashboard",
     ":semanticCommits",
     ":semanticCommitScope(deps)"
-  ]
+  ],
+  "automerge": true,
+  "automergeStrategy": "rebase"
 }
