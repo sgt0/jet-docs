@@ -5,6 +5,7 @@ from pathlib import Path
 
 import mkdocs_gen_files
 import vsaa
+import vsadjust
 import vsdeband
 import vsdehalo
 import vsdeinterlace
@@ -18,10 +19,12 @@ import vsrgtools
 import vsscale
 import vssource
 import vstools
+import vstransitions
 
 # Modules to document.
 MODULES = [
     vsaa,
+    vsadjust,
     vsdeband,
     vsdehalo,
     vsdeinterlace,
@@ -35,6 +38,7 @@ MODULES = [
     vsscale,
     vssource,
     vstools,
+    vstransitions,
 ]
 
 # Excluded submodules.
@@ -43,6 +47,9 @@ EXCLUDE = [
     "vsdeband.noise",
     "vsdenoise.nlm",
     "vsdenoise.prefilters",
+
+    # Cannot be found.
+    "vstransitions.libs.movis",
 ]
 
 nav = mkdocs_gen_files.Nav()

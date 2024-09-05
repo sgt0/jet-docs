@@ -79,6 +79,8 @@ markdown_extensions:
   - pymdownx.highlight:
       pygments_lang_class: true
   - pymdownx.superfences
+  - toc:
+      permalink: "🔗"
 
 nav:
 - Home:

@@ -1315,7 +1315,6 @@ python-versions = "*"
 files = [
     {file = "PyQt6_Qt6-6.7.2-py3-none-macosx_10_14_x86_64.whl", hash = "sha256:065415589219a2f364aba29d6a98920bb32810286301acbfa157e522d30369e3"},
     {file = "PyQt6_Qt6-6.7.2-py3-none-macosx_11_0_arm64.whl", hash = "sha256:7f817efa86a0e8eda9152c85b73405463fbf3266299090f32bbb2266da540ead"},
-    {file = "PyQt6_Qt6-6.7.2-py3-none-manylinux_2_28_aarch64.whl", hash = "sha256:05f2c7d195d316d9e678a92ecac0252a24ed175bd2444cc6077441807d756580"},
     {file = "PyQt6_Qt6-6.7.2-py3-none-manylinux_2_28_x86_64.whl", hash = "sha256:fc93945eaef4536d68bd53566535efcbe78a7c05c2a533790a8fd022bac8bfaa"},
     {file = "PyQt6_Qt6-6.7.2-py3-none-win_amd64.whl", hash = "sha256:b2d7e5ddb1b9764cd60f1d730fa7bf7a1f0f61b2630967c81761d3d0a5a8a2e0"},
 ]
@@ -1752,6 +1751,31 @@ reference = "dc79f32b80d4e1d9f03a7d6f30ee3468110e2427"
 resolved_reference = "dc79f32b80d4e1d9f03a7d6f30ee3468110e2427"
 
 [[package]]
+name = "vsadjust"
+version = "0.0.0"
+description = "VapourSynth functions for adjusting luma/chroma values"
+optional = false
+python-versions = ">=3.12"
+files = []
+develop = false
+
+[package.dependencies]
+VapourSynth = ">=68"
+vsaa = ">=1.10.0"
+vsexprtools = ">=1.6.0"
+vskernels = ">=3.2.0"
+vsmasktools = ">=1.3.0"
+vsrgtools = ">=1.7.0"
+vsscale = ">=2.1.0"
+vstools = ">=3.2.0"
+
+[package.source]
+type = "git"
+url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-adjust.git"
+reference = "2e2078f11665e3b7dc555bc63256ace9dafd268a"
+resolved_reference = "2e2078f11665e3b7dc555bc63256ace9dafd268a"
+
+[[package]]
 name = "vsdeband"
 version = "1.2.0"
 description = "VapourSynth Debanding Functions Collection"
@@ -2068,6 +2092,27 @@ reference = "450c52ae26faf66a6191e650b7aaa10badbc629f"
 resolved_reference = "450c52ae26faf66a6191e650b7aaa10badbc629f"
 
 [[package]]
+name = "vstransitions"
+version = "0.1.1"
+description = "VapourSynth functions for making transitions and reanimating static shots"
+optional = false
+python-versions = ">=3.12"
+files = []
+develop = false
+
+[package.dependencies]
+VapourSynth = ">=65"
+vsexprtools = ">=1.6.0"
+vskernels = ">=3.2.0"
+vstools = ">=3.2.0"
+
+[package.source]
+type = "git"
+url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-transitions.git"
+reference = "ebf4ffb96c5b1db522e1ec629eb71d663cb25f24"
+resolved_reference = "ebf4ffb96c5b1db522e1ec629eb71d663cb25f24"
+
+[[package]]
 name = "watchdog"
 version = "5.0.2"
 description = "Filesystem events monitoring"
@@ -2112,4 +2157,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "c4f5f52978b404e218778e0efb79b5d05e2833f7bba15d06d5612ba662dac689"
+content-hash = "88cb61a83ca3bc6268d3b3eaa0f90175ee7376e3a22ca17e542accfacb754bca"
