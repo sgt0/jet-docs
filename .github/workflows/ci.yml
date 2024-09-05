@@ -8,7 +8,7 @@ on:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref_name }}-${{ github.event.pull_request.number || github.sha }}
-  cancel-in-progress: true
+  cancel-in-progress: ${{ github.ref_name != 'main' }}
 
 permissions:
   contents: read
@@ -22,19 +22,21 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4.1.7
 
-      - name: Set up uv
-        run: curl -LsSf https://astral.sh/uv/0.4.5/install.sh | sh
+      - name: Install poetry
+        run: pipx install poetry
 
       - name: Set up Python
         uses: actions/setup-python@v5.2.0
         with:
-          python-version-file: ".python-version"
+          python-version-file: .python-version
+          cache: poetry
+          cache-dependency-path: poetry.lock
 
       - name: Install dependencies
-        run: uv sync --locked
+        run: poetry install
 
       - name: Build
-        run: uv run mkdocs build
+        run: poetry run mkdocs build
 
       - name: Upload
         uses: actions/upload-artifact@v4.3.6
@@ -52,19 +54,21 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4.1.7
 
-      - name: Set up uv
-        run: curl -LsSf https://astral.sh/uv/0.4.5/install.sh | sh
+      - name: Install poetry
+        run: pipx install poetry
 
       - name: Set up Python
         uses: actions/setup-python@v5.2.0
         with:
-          python-version-file: ".python-version"
+          python-version-file: .python-version
+          cache: poetry
+          cache-dependency-path: poetry.lock
 
       - name: Install dependencies
-        run: uv sync --locked
+        run: poetry install
 
       - name: mypy
-        run: uv run mypy .
+        run: poetry run mypy .
         continue-on-error: true # TODO: currently dies on vs-deband.
 
   ruff:
@@ -73,19 +77,21 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4.1.7
 
-      - name: Set up uv
-        run: curl -LsSf https://astral.sh/uv/0.4.5/install.sh | sh
+      - name: Install poetry
+        run: pipx install poetry
 
       - name: Set up Python
         uses: actions/setup-python@v5.2.0
         with:
-          python-version-file: ".python-version"
+          python-version-file: .python-version
+          cache: poetry
+          cache-dependency-path: poetry.lock
 
       - name: Install dependencies
-        run: uv sync --locked
+        run: poetry install
 
       - name: Ruff
-        run: uv run ruff check .
+        run: poetry run ruff check .
 
   deploy:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
@@ -93,7 +99,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       actions: read
       id-token: write
