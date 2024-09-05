@@ -1748,8 +1748,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-aa.git"
-reference = "3a4b0a27d4e705300c035575d3374cca7a021a70"
-resolved_reference = "3a4b0a27d4e705300c035575d3374cca7a021a70"
+reference = "dc79f32b80d4e1d9f03a7d6f30ee3468110e2427"
+resolved_reference = "dc79f32b80d4e1d9f03a7d6f30ee3468110e2427"
 
 [[package]]
 name = "vsdeband"
@@ -2112,4 +2112,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "c6a55b60298fab65ab50be43c5a0229aa3f7d394a4f223cb15e26f5be363d4f8"
+content-hash = "c4f5f52978b404e218778e0efb79b5d05e2833f7bba15d06d5612ba662dac689"
