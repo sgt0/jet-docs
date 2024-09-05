@@ -20,7 +20,7 @@ jobs:
       PROD: true
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4.1.6
+        uses: actions/checkout@v4.1.7
 
       - name: Set up uv
         run: curl -LsSf https://astral.sh/uv/0.4.5/install.sh | sh
@@ -50,7 +50,7 @@ jobs:
     runs-on: windows-2022
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4.1.6
+        uses: actions/checkout@v4.1.7
 
       - name: Set up uv
         run: curl -LsSf https://astral.sh/uv/0.4.5/install.sh | sh
@@ -71,7 +71,7 @@ jobs:
     runs-on: windows-2022
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4.1.6
+        uses: actions/checkout@v4.1.7
 
       - name: Set up uv
         run: curl -LsSf https://astral.sh/uv/0.4.5/install.sh | sh
