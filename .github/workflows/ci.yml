@@ -35,6 +35,14 @@ jobs:
       - name: Install dependencies
         run: poetry install
 
+      - name: Restore build cache
+        uses: actions/cache/restore@v4.0.2
+        with:
+          key: mkdocs-material-${{ hashfiles('.cache/**') }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
+
       - name: Build
         run: poetry run mkdocs build
 
@@ -47,6 +55,12 @@ jobs:
       - uses: actions/upload-pages-artifact@v3.0.1
         with:
           path: site
+
+      - name: Save build cache
+        uses: actions/cache/save@v4.0.2
+        with:
+          key: mkdocs-material-${{ hashfiles('.cache/**') }}
+          path: .cache
 
   mypy:
     runs-on: windows-2022
