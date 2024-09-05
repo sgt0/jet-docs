@@ -8,5 +8,6 @@
     ":semanticCommitScope(deps)"
   ],
   "automerge": true,
-  "automergeStrategy": "rebase"
+  "automergeStrategy": "rebase",
+  "rangeStrategy": "bump"
 }
