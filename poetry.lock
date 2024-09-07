@@ -1931,8 +1931,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-kernels.git"
-reference = "e7a52925ae83a734509f161275f646b8307a9e52"
-resolved_reference = "e7a52925ae83a734509f161275f646b8307a9e52"
+reference = "44cc41a440e475d0c1ee6fa3ba6d5ac760106e69"
+resolved_reference = "44cc41a440e475d0c1ee6fa3ba6d5ac760106e69"
 
 [[package]]
 name = "vsmasktools"
@@ -1984,8 +1984,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-preview.git"
-reference = "e048ce1ae4d59dbea7f0ccbff8a22bc2a8637a34"
-resolved_reference = "e048ce1ae4d59dbea7f0ccbff8a22bc2a8637a34"
+reference = "e0fc35ecf187bb3594c7da802be271d13e019636"
+resolved_reference = "e0fc35ecf187bb3594c7da802be271d13e019636"
 
 [[package]]
 name = "vspyplugin"
@@ -2157,4 +2157,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "d1d8dadde2beb870e02c0fa4fa76dbd3ed706550b619d4c81d7215165e7779ec"
+content-hash = "1b94b1da8d92cd07fb3bb4447bfa9ffd20cc5ff570e3b9504bc11ca65567db5d"

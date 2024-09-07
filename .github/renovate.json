@@ -9,5 +9,11 @@
   ],
   "automerge": true,
   "automergeStrategy": "rebase",
-  "rangeStrategy": "bump"
+  "rangeStrategy": "bump",
+  "packageRules": [
+    {
+      "matchDepNames": ["python"],
+      "enabled": false
+    }
+  ]
 }
