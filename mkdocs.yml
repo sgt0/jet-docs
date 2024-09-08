@@ -55,7 +55,9 @@ plugins:
         options:
           docstring_section_style: list
           docstring_style: "sphinx"
-          filters: ["!^_"]
+          filters:
+            - "!^_"
+            - "^__call__$"
           heading_level: 1
           inherited_members: true
           line_length: 80
