@@ -1850,8 +1850,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-deinterlace.git"
-reference = "bfb449016878ae1250ec4a7f8e90d780497dd130"
-resolved_reference = "bfb449016878ae1250ec4a7f8e90d780497dd130"
+reference = "0cbcfd5a12e7ac2b8ec95fcf3f73557f62433481"
+resolved_reference = "0cbcfd5a12e7ac2b8ec95fcf3f73557f62433481"
 
 [[package]]
 name = "vsdenoise"
@@ -2157,4 +2157,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "940810e27e36f620e1ccd8cd0f545f511e33ef26ab756de39eb6f63c738dab78"
+content-hash = "8339df4a969acf42b09b8d58b7909ef92aef7d977fb06fdbcd4e40e03c14dd05"
