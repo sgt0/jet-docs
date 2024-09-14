@@ -52,6 +52,12 @@ EXCLUDE = [
     "vstransitions.libs.movis",
 ]
 
+# Explicitly included submodules that would otherwise not have been processed.
+INCLUDE = [
+    # Submodules are `_` prefixed, so include the overarching module.
+    "vsmasktools.edge",
+]
+
 nav = mkdocs_gen_files.Nav()
 
 for module in MODULES:
@@ -78,7 +84,7 @@ for module in MODULES:
             # TODO: figure out what to do with `__init__.py`'s. They're only
             # reexporting items from submodules so it becomes cluttered and
             # duplicated content on the site.
-            if full_doc_path.name == "index.md":
+            if full_doc_path.name == "index.md" and ident not in INCLUDE:
                 fd.write(f"---\ntitle: {ident}\n---\n\n{ident}")
             else:
                 fd.write(f"---\ntitle: {ident}\n---\n\n::: {ident}")
