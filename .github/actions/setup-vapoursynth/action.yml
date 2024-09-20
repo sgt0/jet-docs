@@ -1,0 +1,60 @@
+name: Set up VapourSynth
+description: Build and install VapourSynth
+inputs:
+  vapoursynth-version:
+    description: VapourSynth version
+    required: true
+runs:
+  using: composite
+  steps:
+    - name: ccache
+      uses: hendrikmuhs/ccache-action@v1.2.14
+
+    - name: Install zimg
+      env:
+        CC: ccache gcc
+        CXX: ccache g++
+      shell: bash
+      run: |
+        git clone https://bitbucket.org/the-sekrit-twc/zimg.git --depth 1 --recurse-submodules --shallow-submodules
+        pushd zimg
+        ./autogen.sh
+        ./configure --prefix=/usr
+        make -j$(nproc)
+        sudo make install -j$(nproc)
+        popd
+        rm -rf zimg
+
+    - name: Install Python dependencies
+      shell: bash
+      run: pip install -U cython setuptools wheel
+
+    - name: Checkout VapourSynth
+      uses: actions/checkout@v4.1.7
+      with:
+        repository: vapoursynth/vapoursynth
+        ref: ${{ inputs.vapoursynth-version }}
+        path: vapoursynth
+
+    - name: Install VapourSynth
+      env:
+        CC: ccache gcc
+        CXX: ccache g++
+      shell: bash
+      run: |
+        pushd vapoursynth
+        ./autogen.sh
+        ./configure --prefix=/usr
+        make -j$(nproc)
+        sudo make install -j$(nproc)
+        python setup.py sdist -d sdist
+        mkdir empty
+        pushd empty
+        pip install vapoursynth --no-index --find-links ../sdist
+        popd
+        popd
+        rm -rf vapoursynth
+
+    - name: Verify VapourSynth install
+      shell: bash
+      run: python -c "import vapoursynth; print(vapoursynth.core)"
