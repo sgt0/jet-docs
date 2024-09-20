@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: windows-2022
+    runs-on: ubuntu-24.04
     env:
       PROD: true
     steps:
@@ -31,6 +31,11 @@ jobs:
           python-version-file: .python-version
           cache: poetry
           cache-dependency-path: poetry.lock
+
+      - name: Install VapourSynth
+        uses: ./.github/actions/setup-vapoursynth
+        with:
+          vapoursynth-version: R70
 
       - name: Install dependencies
         run: poetry install
@@ -63,7 +68,7 @@ jobs:
           path: .cache
 
   mypy:
-    runs-on: windows-2022
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
         uses: actions/checkout@v4.1.7
@@ -77,6 +82,11 @@ jobs:
           python-version-file: .python-version
           cache: poetry
           cache-dependency-path: poetry.lock
+
+      - name: Install VapourSynth
+        uses: ./.github/actions/setup-vapoursynth
+        with:
+          vapoursynth-version: R70
 
       - name: Install dependencies
         run: poetry install
@@ -86,7 +96,7 @@ jobs:
         continue-on-error: true # TODO: currently dies on vs-deband.
 
   ruff:
-    runs-on: windows-2022
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
         uses: actions/checkout@v4.1.7
@@ -100,6 +110,11 @@ jobs:
           python-version-file: .python-version
           cache: poetry
           cache-dependency-path: poetry.lock
+
+      - name: Install VapourSynth
+        uses: ./.github/actions/setup-vapoursynth
+        with:
+          vapoursynth-version: R70
 
       - name: Install dependencies
         run: poetry install
