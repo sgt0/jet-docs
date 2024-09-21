@@ -21,7 +21,7 @@ mkdocs-minify-plugin = "^0.8.0"
 mkdocs-redirects = "^1.2.1"
 mkdocstrings = { version = "^0.26.1", extras = ["python"] }
 mypy = "^1.11.2"
-ruff = "^0.6.6"
+ruff = "^0.6.7"
 
 vsaa = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-aa.git", rev = "8c6b0d125b87359736a66bd7351aa00799366cf4" }
 vsadjust = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-adjust.git", rev = "83cd4c5767db8f3dffb48df74853e831cfad2033" }
