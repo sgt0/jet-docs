@@ -1318,6 +1318,7 @@ python-versions = "*"
 files = [
     {file = "PyQt6_Qt6-6.7.2-py3-none-macosx_10_14_x86_64.whl", hash = "sha256:065415589219a2f364aba29d6a98920bb32810286301acbfa157e522d30369e3"},
     {file = "PyQt6_Qt6-6.7.2-py3-none-macosx_11_0_arm64.whl", hash = "sha256:7f817efa86a0e8eda9152c85b73405463fbf3266299090f32bbb2266da540ead"},
+    {file = "PyQt6_Qt6-6.7.2-py3-none-manylinux_2_28_aarch64.whl", hash = "sha256:05f2c7d195d316d9e678a92ecac0252a24ed175bd2444cc6077441807d756580"},
     {file = "PyQt6_Qt6-6.7.2-py3-none-manylinux_2_28_x86_64.whl", hash = "sha256:fc93945eaef4536d68bd53566535efcbe78a7c05c2a533790a8fd022bac8bfaa"},
     {file = "PyQt6_Qt6-6.7.2-py3-none-win_amd64.whl", hash = "sha256:b2d7e5ddb1b9764cd60f1d730fa7bf7a1f0f61b2630967c81761d3d0a5a8a2e0"},
 ]
@@ -1972,8 +1973,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-masktools.git"
-reference = "bfbfbcf7d79061a45f009505676d2d986bbacf1e"
-resolved_reference = "bfbfbcf7d79061a45f009505676d2d986bbacf1e"
+reference = "2adf65a6d170d9ef48531ab45063d49a50537e3c"
+resolved_reference = "2adf65a6d170d9ef48531ab45063d49a50537e3c"
 
 [[package]]
 name = "vspreview"
@@ -2175,4 +2176,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "56aa67dc5a209f0e64d414098f2e04c91f498c5a76dd4fe1bc09a5ad65f6bd69"
+content-hash = "b7bd622c744f67d94cd6e4e45655772335ac43c495de4f7a06482833f20743b3"
