@@ -25,9 +25,12 @@ runs:
         popd
         rm -rf zimg
 
+    - name: Install uv
+      uses: astral-sh/setup-uv@v3.1.2
+
     - name: Install Python dependencies
       shell: bash
-      run: pip install -U cython setuptools wheel
+      run: uv pip install --system -U cython setuptools wheel
 
     - name: Checkout VapourSynth
       uses: actions/checkout@v4.2.0
@@ -56,5 +59,7 @@ runs:
         rm -rf vapoursynth
 
     - name: Verify VapourSynth install
-      shell: bash
-      run: python -c "import vapoursynth; print(vapoursynth.core)"
+      shell: python
+      run: |
+        import vapoursynth
+        print(vapoursynth.core)
