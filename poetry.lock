@@ -2107,8 +2107,8 @@ VapourSynth = ">=68"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-tools.git"
-reference = "c508812a1b62ff058054cf9e433e7d22c2b3ba31"
-resolved_reference = "c508812a1b62ff058054cf9e433e7d22c2b3ba31"
+reference = "794a8da2ad5f0780c9b2bffd8caed9238d7f16d6"
+resolved_reference = "794a8da2ad5f0780c9b2bffd8caed9238d7f16d6"
 
 [[package]]
 name = "vstransitions"
@@ -2176,4 +2176,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "291c1528220188eb9d29af8c91aa47c456efbb0a4e2a3ae665f54512411824a3"
+content-hash = "3e13421f2f83a330b0db2ce7b78c78cfa29f98a3bdd9ecfa64e2fe053d1b4003"
