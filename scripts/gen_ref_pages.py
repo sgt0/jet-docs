@@ -58,7 +58,7 @@ INCLUDE = [
     "vsmasktools.edge",
 ]
 
-nav = mkdocs_gen_files.Nav()
+nav = mkdocs_gen_files.Nav()  # type: ignore[no-untyped-call]
 
 for module in MODULES:
     src = Path(inspect.getfile(module)).parent
