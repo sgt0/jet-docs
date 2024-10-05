@@ -1843,8 +1843,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-dehalo.git"
-reference = "5b7ab5a5d827cb22f405488fe1628a9b55bbc4da"
-resolved_reference = "5b7ab5a5d827cb22f405488fe1628a9b55bbc4da"
+reference = "0ac0674fef69a86837c7d9b8f7191caf94c1104c"
+resolved_reference = "0ac0674fef69a86837c7d9b8f7191caf94c1104c"
 
 [[package]]
 name = "vsdeinterlace"
@@ -2176,4 +2176,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "063d4e7ee3c910fe5a120cd2f65f231e44448b8b9f06df406207ae5ecbaeffe6"
+content-hash = "3d6a1195766ea945aaa2a32336fba345c4ce41c391df026f857c4f6261a82633"
