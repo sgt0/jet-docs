@@ -33,7 +33,7 @@ runs:
       run: uv pip install --system -U cython setuptools wheel
 
     - name: Checkout VapourSynth
-      uses: actions/checkout@v4.2.0
+      uses: actions/checkout@v4.2.1
       with:
         repository: vapoursynth/vapoursynth
         ref: ${{ inputs.vapoursynth-version }}
