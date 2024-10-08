@@ -2079,8 +2079,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-scale.git"
-reference = "50693af3f2d7376b2352abd834cc54f44054c5a7"
-resolved_reference = "50693af3f2d7376b2352abd834cc54f44054c5a7"
+reference = "299493380800f7ecca86f9d4e9b9ff2c092713a1"
+resolved_reference = "299493380800f7ecca86f9d4e9b9ff2c092713a1"
 
 [[package]]
 name = "vssource"
@@ -2187,4 +2187,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "d5dae263e43c9d285e0c7ee733e5f5a48c48811c969108c7468af34753729361"
+content-hash = "445a8d8e5224c555e38480ee6cadd311b568ada67c53b0f3e5aaae06ef72a08a"
