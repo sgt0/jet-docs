@@ -2060,7 +2060,7 @@ resolved_reference = "9b3e6719c16bafffcf1f878957388e727e7ac9a0"
 
 [[package]]
 name = "vsscale"
-version = "2.1.0"
+version = "2.2.0"
 description = "VapourSynth (de)scaling functions"
 optional = false
 python-versions = ">=3.12"
@@ -2079,8 +2079,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-scale.git"
-reference = "299493380800f7ecca86f9d4e9b9ff2c092713a1"
-resolved_reference = "299493380800f7ecca86f9d4e9b9ff2c092713a1"
+reference = "11a8072f86ca2543b879be722f01924cb7bde0ca"
+resolved_reference = "11a8072f86ca2543b879be722f01924cb7bde0ca"
 
 [[package]]
 name = "vssource"
@@ -2187,4 +2187,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "e68ccf2a6088754583f651af38740a7bdbbefddcca9223576746ec99a55955b5"
+content-hash = "7e92ac23a26370a048fb9d2de3917f4c5b5c68e625ba1e1cf08e2aa8f40e0827"
