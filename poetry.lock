@@ -2103,7 +2103,7 @@ resolved_reference = "02f5eb0aa9fee8a31df5027eab503991c32b0ecf"
 
 [[package]]
 name = "vstools"
-version = "3.2.0"
+version = "3.3.1"
 description = "Functions and utils related to VapourSynth."
 optional = false
 python-versions = ">=3.12"
@@ -2112,14 +2112,14 @@ develop = false
 
 [package.dependencies]
 rich = ">=12.6.0"
-stgpytools = ">=1.1.1"
+stgpytools = ">=1.2.0"
 VapourSynth = ">=68"
 
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-tools.git"
-reference = "086af436723fbe9ecfed9976b5fb0607560df81a"
-resolved_reference = "086af436723fbe9ecfed9976b5fb0607560df81a"
+reference = "733ebcca48c78215af9186512970f899e0e0d80c"
+resolved_reference = "733ebcca48c78215af9186512970f899e0e0d80c"
 
 [[package]]
 name = "vstransitions"
@@ -2187,4 +2187,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "e68ccf2a6088754583f651af38740a7bdbbefddcca9223576746ec99a55955b5"
+content-hash = "3cf7d3643bbf041ca04c79ddc20a67c56c76135a76fd2bdb1a121f1355b122ee"
