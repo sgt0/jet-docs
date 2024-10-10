@@ -1859,7 +1859,7 @@ resolved_reference = "0ac0674fef69a86837c7d9b8f7191caf94c1104c"
 
 [[package]]
 name = "vsdeinterlace"
-version = "0.7.0"
+version = "0.8.0"
 description = "VapourSynth deinterlacing and interlaced/telecined content helper functions"
 optional = false
 python-versions = ">=3.12"
@@ -1880,8 +1880,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-deinterlace.git"
-reference = "dbba1361be55ada48850e1a19cc41a2c42a44210"
-resolved_reference = "dbba1361be55ada48850e1a19cc41a2c42a44210"
+reference = "cf405d88e28b100434239a3af6e6dff9c8e473c8"
+resolved_reference = "cf405d88e28b100434239a3af6e6dff9c8e473c8"
 
 [[package]]
 name = "vsdenoise"
@@ -2187,4 +2187,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "e68ccf2a6088754583f651af38740a7bdbbefddcca9223576746ec99a55955b5"
+content-hash = "7a65fcfa4b69d7ae78272173949079715e9f2ba5d5dbbbb27461d806d9d69476"
