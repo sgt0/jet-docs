@@ -1807,7 +1807,7 @@ resolved_reference = "709e3f27209f0256195251f7dc7a294e16f27bc3"
 
 [[package]]
 name = "vsdeband"
-version = "1.2.0"
+version = "1.2.1"
 description = "VapourSynth Debanding Functions Collection"
 optional = false
 python-versions = ">=3.12"
@@ -1828,8 +1828,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-deband.git"
-reference = "4280717c33da48b12e6a8f226a6c8f20e1ecab97"
-resolved_reference = "4280717c33da48b12e6a8f226a6c8f20e1ecab97"
+reference = "d280b1eb082b9cc2a0151b5c86f2d551ec2e63d0"
+resolved_reference = "d280b1eb082b9cc2a0151b5c86f2d551ec2e63d0"
 
 [[package]]
 name = "vsdehalo"
@@ -2187,4 +2187,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "b020403c2019881f4d97dc7cbd2704b6ccc4e48825702b6453267a8a9c629f93"
+content-hash = "e68ccf2a6088754583f651af38740a7bdbbefddcca9223576746ec99a55955b5"
