@@ -1833,7 +1833,7 @@ resolved_reference = "d280b1eb082b9cc2a0151b5c86f2d551ec2e63d0"
 
 [[package]]
 name = "vsdehalo"
-version = "1.9.0"
+version = "1.9.1"
 description = "Collection of dehaloing VapourSynth functions"
 optional = false
 python-versions = ">=3.12"
@@ -1854,8 +1854,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-dehalo.git"
-reference = "0ac0674fef69a86837c7d9b8f7191caf94c1104c"
-resolved_reference = "0ac0674fef69a86837c7d9b8f7191caf94c1104c"
+reference = "d2eeb288c2456d635e979fff2b27a6a72b0ae7cf"
+resolved_reference = "d2eeb288c2456d635e979fff2b27a6a72b0ae7cf"
 
 [[package]]
 name = "vsdeinterlace"
@@ -2187,4 +2187,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "e68ccf2a6088754583f651af38740a7bdbbefddcca9223576746ec99a55955b5"
+content-hash = "69cf6369521c079339ccf5a3156059542e319c0d84e945b163d6eebd90185ce1"
