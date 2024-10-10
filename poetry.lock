@@ -2038,7 +2038,7 @@ resolved_reference = "d77cceb042bcf86bc2c7d025e8920379a1487b58"
 
 [[package]]
 name = "vsrgtools"
-version = "1.7.0"
+version = "1.8.0"
 description = "Wrapper for RGVS, RGSF, and various other functions"
 optional = false
 python-versions = ">=3.12"
@@ -2055,8 +2055,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-rgtools.git"
-reference = "9b3e6719c16bafffcf1f878957388e727e7ac9a0"
-resolved_reference = "9b3e6719c16bafffcf1f878957388e727e7ac9a0"
+reference = "be61c71cdb662b6dd5be1d4cd806426ab4955fb2"
+resolved_reference = "be61c71cdb662b6dd5be1d4cd806426ab4955fb2"
 
 [[package]]
 name = "vsscale"
@@ -2187,4 +2187,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "e68ccf2a6088754583f651af38740a7bdbbefddcca9223576746ec99a55955b5"
+content-hash = "616b0a0c5037da88fd52ccc1a488dc29db05a8a85c7516fb06c4a2adfe5e5a2b"
