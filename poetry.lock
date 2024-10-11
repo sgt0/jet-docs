@@ -1947,7 +1947,7 @@ resolved_reference = "35836ff54ad1bcd20ecb2f778446688e43975544"
 
 [[package]]
 name = "vskernels"
-version = "3.2.0"
+version = "3.3.0"
 description = "Kernel objects for scaling and format conversion within VapourSynth"
 optional = false
 python-versions = ">=3.12"
@@ -1961,8 +1961,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-kernels.git"
-reference = "a3b4772b5eed29ccccb4b81dbd74c0833e4c1060"
-resolved_reference = "a3b4772b5eed29ccccb4b81dbd74c0833e4c1060"
+reference = "aa68f224afb15949faf77e3f7b98cdbe11fc1e43"
+resolved_reference = "aa68f224afb15949faf77e3f7b98cdbe11fc1e43"
 
 [[package]]
 name = "vsmasktools"
@@ -2187,4 +2187,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "c8995cbf7938e7dee2eaa42ce869c4a88e88aa554a0c9248022f4f8a5f2ecdac"
+content-hash = "5c34563040d8808bec5558095d47193578f8c6d707d4a406e6e1250bf2773d2e"
