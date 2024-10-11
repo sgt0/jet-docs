@@ -1885,7 +1885,7 @@ resolved_reference = "cf405d88e28b100434239a3af6e6dff9c8e473c8"
 
 [[package]]
 name = "vsdenoise"
-version = "2.6.0"
+version = "2.7.0"
 description = "VapourSynth denoising functions"
 optional = false
 python-versions = ">=3.12"
@@ -1905,8 +1905,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-denoise.git"
-reference = "6334260dea18ac2cdec0d5e73386e9de1521acd1"
-resolved_reference = "6334260dea18ac2cdec0d5e73386e9de1521acd1"
+reference = "3b41256b860ec25c22e511638b73f055baf19e77"
+resolved_reference = "3b41256b860ec25c22e511638b73f055baf19e77"
 
 [[package]]
 name = "vsengine"
@@ -2187,4 +2187,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "06a1c96b3b96fcef0e09ef5b5e7381127e200284ae5266028e7863cb42cd1f49"
+content-hash = "d88b50735c2c2c23a81e4932876e2b747fbf143545a6c230bea0e6daa687015a"
