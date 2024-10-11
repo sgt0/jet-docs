@@ -1928,7 +1928,7 @@ trio = ["trio"]
 
 [[package]]
 name = "vsexprtools"
-version = "1.6.0"
+version = "1.7.0"
 description = "VapourSynth functions and helpers for writing RPN expressions."
 optional = false
 python-versions = ">=3.12"
@@ -1942,8 +1942,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-exprtools.git"
-reference = "1c2a96c27d6549df0e4bbff5e1a4a4648515bbeb"
-resolved_reference = "1c2a96c27d6549df0e4bbff5e1a4a4648515bbeb"
+reference = "35836ff54ad1bcd20ecb2f778446688e43975544"
+resolved_reference = "35836ff54ad1bcd20ecb2f778446688e43975544"
 
 [[package]]
 name = "vskernels"
@@ -2187,4 +2187,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "d88b50735c2c2c23a81e4932876e2b747fbf143545a6c230bea0e6daa687015a"
+content-hash = "c8995cbf7938e7dee2eaa42ce869c4a88e88aa554a0c9248022f4f8a5f2ecdac"
