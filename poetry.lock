@@ -1961,8 +1961,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-kernels.git"
-reference = "aa68f224afb15949faf77e3f7b98cdbe11fc1e43"
-resolved_reference = "aa68f224afb15949faf77e3f7b98cdbe11fc1e43"
+reference = "6de2d756b2d7ee29602d97b929debb0d7bf08ade"
+resolved_reference = "6de2d756b2d7ee29602d97b929debb0d7bf08ade"
 
 [[package]]
 name = "vsmasktools"
@@ -2187,4 +2187,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "dbbd1e440b6fcf305e22c00e5354052dd07decdf7fab785dccd18b3058add26d"
+content-hash = "2a7e4e52058b40d3bbfb136cc1690eb0ed84524a6f9d1378df60e5123f2f5250"
