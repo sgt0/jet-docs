@@ -1942,8 +1942,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-exprtools.git"
-reference = "35836ff54ad1bcd20ecb2f778446688e43975544"
-resolved_reference = "35836ff54ad1bcd20ecb2f778446688e43975544"
+reference = "a116abf13fd386aee9a369d4b7912bfbee4b7b9e"
+resolved_reference = "a116abf13fd386aee9a369d4b7912bfbee4b7b9e"
 
 [[package]]
 name = "vskernels"
@@ -2187,4 +2187,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "1b61150abdae48c418e6c51f87165c2b42834a89e84629b5bac4fe7fe8f2ca64"
+content-hash = "176c4ed40cfa06128328e441f694ac660f74783d363ac9e806693c8cc84b2d95"
