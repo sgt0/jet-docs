@@ -26,7 +26,7 @@ ruff = "^0.6.9"
 vsaa = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-aa.git", rev = "569aa618f578402c247f3522c83eaf23f0ab557e" }
 vsadjust = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-adjust.git", rev = "bb3610a20f146822291e411feacf69caed0fa64e" }
 vsdeband = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-deband.git", rev = "d280b1eb082b9cc2a0151b5c86f2d551ec2e63d0" }
-vsdehalo = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-dehalo.git", rev = "d2eeb288c2456d635e979fff2b27a6a72b0ae7cf" }
+vsdehalo = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-dehalo.git", rev = "727acf4dda10a31628461f9cff26ddcf156d81a8" }
 vsdeinterlace = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-deinterlace.git", rev = "cf405d88e28b100434239a3af6e6dff9c8e473c8" }
 vsdenoise = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-denoise.git", rev = "3b41256b860ec25c22e511638b73f055baf19e77" }
 vsexprtools = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-exprtools.git", rev = "35836ff54ad1bcd20ecb2f778446688e43975544" }
