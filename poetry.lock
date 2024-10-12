@@ -2019,7 +2019,7 @@ resolved_reference = "e0fc35ecf187bb3594c7da802be271d13e019636"
 
 [[package]]
 name = "vspyplugin"
-version = "1.4.2"
+version = "1.4.3"
 description = "Package for simplifying writing VapourSynth \"plugins\" in python."
 optional = false
 python-versions = ">=3.12"
@@ -2033,8 +2033,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-pyplugin.git"
-reference = "d77cceb042bcf86bc2c7d025e8920379a1487b58"
-resolved_reference = "d77cceb042bcf86bc2c7d025e8920379a1487b58"
+reference = "e2082c821be20470a6a92338e82acdecd88c3824"
+resolved_reference = "e2082c821be20470a6a92338e82acdecd88c3824"
 
 [[package]]
 name = "vsrgtools"
@@ -2187,4 +2187,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "53cf91dbfa585e084a916540419be9e32ea90203b439e51be897bcda59e349a9"
+content-hash = "907f66ff793702620d25ad256054f99b258262f4561257a88afbd04b868cbfde"
