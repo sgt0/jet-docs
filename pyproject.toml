@@ -23,7 +23,7 @@ mkdocstrings = { version = "^0.26.1", extras = ["python"] }
 mypy = "^1.11.2"
 ruff = "^0.6.9"
 
-vsaa = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-aa.git", rev = "569aa618f578402c247f3522c83eaf23f0ab557e" }
+vsaa = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-aa.git", rev = "a4756dcaf542e2488953a76e0f281771833ca63d" }
 vsadjust = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-adjust.git", rev = "bb3610a20f146822291e411feacf69caed0fa64e" }
 vsdeband = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-deband.git", rev = "84e32173c58be381e962f1ed2168d0c9d3ce6432" }
 vsdehalo = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-dehalo.git", rev = "727acf4dda10a31628461f9cff26ddcf156d81a8" }
