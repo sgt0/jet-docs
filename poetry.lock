@@ -2033,8 +2033,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-pyplugin.git"
-reference = "e2082c821be20470a6a92338e82acdecd88c3824"
-resolved_reference = "e2082c821be20470a6a92338e82acdecd88c3824"
+reference = "bda7f018055c09f5c5bde579d6930c10b06e3843"
+resolved_reference = "bda7f018055c09f5c5bde579d6930c10b06e3843"
 
 [[package]]
 name = "vsrgtools"
@@ -2187,4 +2187,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "d2976bb9b30089b8ec9ab165078ade3c14fb7db7ad0242cecd1b7ebaba3fb8e2"
+content-hash = "38348f9da32d6ed6f52ed974d3fa891aa43e7f09d18bbf36628b2166693641b0"
