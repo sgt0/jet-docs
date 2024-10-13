@@ -36,7 +36,7 @@ vspreview = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-preview.gi
 vspyplugin = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-pyplugin.git", rev = "bda7f018055c09f5c5bde579d6930c10b06e3843" }
 vsrgtools = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-rgtools.git", rev = "54cb0792139a9c62ff4048ce9f1dd4edf87617ad" }
 vsscale = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-scale.git", rev = "01b29df328a732c3725579f8b05649d9b75bdef2" }
-vssource = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-source.git", rev = "bb5c3918ca3efe8888daf57d5910c2b4093ca258" }
+vssource = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-source.git", rev = "11b5689cfc063d38ebfaf2f832b2353f66c65160" }
 vstools = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-tools.git", rev = "086af436723fbe9ecfed9976b5fb0607560df81a" }
 vstransitions = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-transitions.git", rev = "5f4cfc3d67f69dc78a9026a366b1dd0316297ac6" }
 
