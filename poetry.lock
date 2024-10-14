@@ -1828,8 +1828,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-deband.git"
-reference = "5c126c35d4f6d72c4bd313e74c8a2ed1805ecf3a"
-resolved_reference = "5c126c35d4f6d72c4bd313e74c8a2ed1805ecf3a"
+reference = "bd489304c05099f050f9b634fa002ee92fd01564"
+resolved_reference = "bd489304c05099f050f9b634fa002ee92fd01564"
 
 [[package]]
 name = "vsdehalo"
@@ -2187,4 +2187,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "dd2eeb42445fa907a9d14e2027a70d45e9d393acbc5980f9100d18010293d70f"
+content-hash = "d63e61d49752e5ea222fc23b033a525e6db37bd5ec28c4aaa3d3adb6eb74e541"
