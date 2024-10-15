@@ -2055,8 +2055,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-rgtools.git"
-reference = "54cb0792139a9c62ff4048ce9f1dd4edf87617ad"
-resolved_reference = "54cb0792139a9c62ff4048ce9f1dd4edf87617ad"
+reference = "389d5d91f3453beaee6be8a7401c6771ee29f91c"
+resolved_reference = "389d5d91f3453beaee6be8a7401c6771ee29f91c"
 
 [[package]]
 name = "vsscale"
@@ -2187,4 +2187,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "d7d7eef8bc43503a5a8613ddc921687c9177ffc2a5efcd1f04a814c6857533ff"
+content-hash = "a15ddae5399834e279134a43f2314f85f60b0985419b329f11a1f7c53423c494"
