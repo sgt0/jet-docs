@@ -1994,7 +1994,7 @@ resolved_reference = "a6f452ae5c0155a64196b80a216d7e7272128ce1"
 
 [[package]]
 name = "vspreview"
-version = "0.9.0"
+version = "0.10.0"
 description = "Previewer for VapourSynth scripts"
 optional = false
 python-versions = ">=3.12"
@@ -2019,8 +2019,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-preview.git"
-reference = "e0fc35ecf187bb3594c7da802be271d13e019636"
-resolved_reference = "e0fc35ecf187bb3594c7da802be271d13e019636"
+reference = "eb6d560fe7b5b5f732c3267718fe71d04b10e4d9"
+resolved_reference = "eb6d560fe7b5b5f732c3267718fe71d04b10e4d9"
 
 [[package]]
 name = "vspyplugin"
@@ -2192,4 +2192,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "789d244a90a752d19e5f9479d2b1c7914479d023d4f89e69641b3799a00cd31a"
+content-hash = "a4ac30f492caccb9f2a74d3a7b00e88a81cc5d04b2acd9fb2e5283bfc7663af8"
