@@ -44,7 +44,6 @@ MODULES = [
 # Excluded submodules.
 EXCLUDE = [
     # These cause infinite recursion in griffe.
-    "vsdeband.noise",
     "vsdenoise.nlm",
     "vsdenoise.prefilters",
 
