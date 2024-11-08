@@ -19,7 +19,7 @@ mkdocs-literate-nav = "^0.6.1"
 mkdocs-material = "^9.5.44"
 mkdocs-minify-plugin = "^0.8.0"
 mkdocs-redirects = "^1.2.2"
-mkdocstrings = { version = "^0.26.2", extras = ["python"] }
+mkdocstrings = { version = "^0.27.0", extras = ["python"] }
 mypy = "^1.13.0"
 ruff = "^0.7.3"
 
