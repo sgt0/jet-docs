@@ -1906,8 +1906,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-denoise.git"
-reference = "fcc988e19a100440b7afb9e85fa770ce9f989f3c"
-resolved_reference = "fcc988e19a100440b7afb9e85fa770ce9f989f3c"
+reference = "704b361810e3c830cf90aac3537e07902066b815"
+resolved_reference = "704b361810e3c830cf90aac3537e07902066b815"
 
 [[package]]
 name = "vsengine"
@@ -2188,4 +2188,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "a374267a61d32e6255d973c2eef199154ee8eac64b7e7485f549cfbf80761893"
+content-hash = "fde7ee4759289df0514360a663fe7b340acee3071fed2d50a7a428d06757021a"
