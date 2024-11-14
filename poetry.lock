@@ -1779,8 +1779,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-aa.git"
-reference = "a0e40a389ea0cb26f019483030918b13e07cf0fd"
-resolved_reference = "a0e40a389ea0cb26f019483030918b13e07cf0fd"
+reference = "69320c24bd4b094827c820d545eec6baa440159a"
+resolved_reference = "69320c24bd4b094827c820d545eec6baa440159a"
 
 [[package]]
 name = "vsadjust"
@@ -2188,4 +2188,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "ccbd88f876b4e54820cc8a514d339b871cbc1532b4f9293b843411e4e77fc92e"
+content-hash = "e4f88648d393724a5105d82ef40454725f2f1c0bd414d4b08882c81aa74cd84c"
