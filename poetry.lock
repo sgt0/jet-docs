@@ -1985,8 +1985,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-masktools.git"
-reference = "cef169326ff00191a436babf0bb93a94c2671176"
-resolved_reference = "cef169326ff00191a436babf0bb93a94c2671176"
+reference = "2760139c2c4fcfd66a472457ce6102dcc2a576d8"
+resolved_reference = "2760139c2c4fcfd66a472457ce6102dcc2a576d8"
 
 [[package]]
 name = "vspreview"
@@ -2188,4 +2188,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "b27579254868912a12fc829ba1c679a126639c965d4b7005dc3544f945f34526"
+content-hash = "1f3475f7fbc3d9e3f915f6864f7bc83b0e5011682b9122c5c6c4eee506d51696"
