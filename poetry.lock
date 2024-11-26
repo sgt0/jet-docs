@@ -1803,8 +1803,8 @@ vstransitions = ">=0.1.1"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-adjust.git"
-reference = "06a59af8f093d6fd67a5c8a876a20c507a26cf44"
-resolved_reference = "06a59af8f093d6fd67a5c8a876a20c507a26cf44"
+reference = "feb8f0df35fd6a85db4d8b87045c225808838f61"
+resolved_reference = "feb8f0df35fd6a85db4d8b87045c225808838f61"
 
 [[package]]
 name = "vsdeband"
@@ -2188,4 +2188,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "d9b42670414f28773f68d1810e6f1906ccc256134f76b9295a6bdc5ae9499d3b"
+content-hash = "0e3a547449a4bd26854e6ac80d1c375fb4c7799ac2d130f5d0bffdd8bae41d3b"
