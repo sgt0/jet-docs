@@ -1761,7 +1761,7 @@ files = [
 
 [[package]]
 name = "vsaa"
-version = "1.11.0"
+version = "1.11.1"
 description = "VapourSynth anti aliasing and scaling functions"
 optional = false
 python-versions = ">=3.12"
@@ -1779,8 +1779,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-aa.git"
-reference = "69320c24bd4b094827c820d545eec6baa440159a"
-resolved_reference = "69320c24bd4b094827c820d545eec6baa440159a"
+reference = "5007282a63817af51d6b13b0df44b308fe2ea217"
+resolved_reference = "5007282a63817af51d6b13b0df44b308fe2ea217"
 
 [[package]]
 name = "vsadjust"
@@ -2188,4 +2188,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "fdfba86844232698f6c67244e60b3fafcb92bdf1dc86f9e0a98122dd2f7a81c9"
+content-hash = "31b13cd69baceaf49638192f9501cdbb1ec5b2f1e72ccd4e032836cae85532c8"
