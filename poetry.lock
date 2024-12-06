@@ -1967,7 +1967,7 @@ resolved_reference = "9c4912ca92a5a1b463798f5a776e522adbbeac51"
 
 [[package]]
 name = "vsmasktools"
-version = "1.3.1"
+version = "1.3.2"
 description = "Various masking tools for VapourSynth"
 optional = false
 python-versions = ">=3.12"
@@ -1985,8 +1985,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-masktools.git"
-reference = "1c701cd531391f5c8a04f7b4637352e509b789da"
-resolved_reference = "1c701cd531391f5c8a04f7b4637352e509b789da"
+reference = "ec7a1677d465c02e12b68ac73f065d5ea4b1b53b"
+resolved_reference = "ec7a1677d465c02e12b68ac73f065d5ea4b1b53b"
 
 [[package]]
 name = "vspreview"
@@ -2188,4 +2188,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "c85c6b250518c1fd3d6d456788c79348d675d031ab0e771e731851db0e39e971"
+content-hash = "2291a87f3c1281ce28cd3216f25cd81d8c4d0e1250ee42e4ac3afdc0f3a3cb4d"
