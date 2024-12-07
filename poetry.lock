@@ -2085,8 +2085,8 @@ resolved_reference = "b9a9b7990dff073a6bbe57d1e688249f11d4a863"
 
 [[package]]
 name = "vssource"
-version = "0.11.1"
-description = "Vapoursynth Wrapper for DVDs stuff"
+version = "0.11.2"
+description = "Vapoursynth Wrapper for indexing and similar."
 optional = false
 python-versions = ">=3.12"
 files = []
@@ -2099,8 +2099,8 @@ vstools = ">=3.2.0"
 [package.source]
 type = "git"
 url = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-source.git"
-reference = "cefa10be75f5810bee6a5e0967f53b6df2247987"
-resolved_reference = "cefa10be75f5810bee6a5e0967f53b6df2247987"
+reference = "538f094a3dcd2828ad1bae041efd678ac44b6bb1"
+resolved_reference = "538f094a3dcd2828ad1bae041efd678ac44b6bb1"
 
 [[package]]
 name = "vstools"
@@ -2188,4 +2188,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.12"
-content-hash = "90aab4617760dde9c6836899f62ed5eac6cd5b5b8661c63730634d9c25a7c8a9"
+content-hash = "2ace74e363988451f6d87b8c84837e36ad4f7742bcaf93b065a95c0c676f648e"
