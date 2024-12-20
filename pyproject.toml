@@ -20,7 +20,7 @@ mkdocs-material = "^9.5.49"
 mkdocs-minify-plugin = "^0.8.0"
 mkdocs-redirects = "^1.2.2"
 mkdocstrings = { version = "^0.27.0", extras = ["python"] }
-mypy = "^1.13.0"
+mypy = "^1.14.0"
 ruff = "^0.8.4"
 
 vsaa = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-aa.git", rev = "185f7d96b0ff71e1e730bbbbbd6a1ec749d3a708" }
