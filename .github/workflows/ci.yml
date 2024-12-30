@@ -22,15 +22,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4.2.2
 
-      - name: Install poetry
-        run: pipx install poetry
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5.1.0
+        with:
+          enable-cache: true
 
       - name: Set up Python
         uses: actions/setup-python@v5.3.0
         with:
           python-version-file: .python-version
-          cache: poetry
-          cache-dependency-path: poetry.lock
 
       - name: Install VapourSynth
         uses: ./.github/actions/setup-vapoursynth
@@ -38,7 +38,7 @@ jobs:
           vapoursynth-version: R70
 
       - name: Install dependencies
-        run: poetry install
+        run: uv sync
 
       - name: Restore build cache
         uses: actions/cache/restore@v4.2.0
@@ -49,7 +49,7 @@ jobs:
             mkdocs-material-
 
       - name: Build
-        run: poetry run mkdocs build
+        run: uv run mkdocs build
 
       - name: Upload
         uses: actions/upload-artifact@v4.5.0
@@ -73,15 +73,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4.2.2
 
-      - name: Install poetry
-        run: pipx install poetry
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5.1.0
+        with:
+          enable-cache: true
 
       - name: Set up Python
         uses: actions/setup-python@v5.3.0
         with:
           python-version-file: .python-version
-          cache: poetry
-          cache-dependency-path: poetry.lock
 
       - name: Install VapourSynth
         uses: ./.github/actions/setup-vapoursynth
@@ -89,10 +89,10 @@ jobs:
           vapoursynth-version: R70
 
       - name: Install dependencies
-        run: poetry install
+        run: uv sync
 
       - name: mypy
-        run: poetry run mypy .
+        run: uv run mypy .
 
   ruff:
     runs-on: ubuntu-24.04
@@ -100,15 +100,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4.2.2
 
-      - name: Install poetry
-        run: pipx install poetry
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5.1.0
+        with:
+          enable-cache: true
 
       - name: Set up Python
         uses: actions/setup-python@v5.3.0
         with:
           python-version-file: .python-version
-          cache: poetry
-          cache-dependency-path: poetry.lock
 
       - name: Install VapourSynth
         uses: ./.github/actions/setup-vapoursynth
@@ -116,10 +116,10 @@ jobs:
           vapoursynth-version: R70
 
       - name: Install dependencies
-        run: poetry install
+        run: uv sync
 
       - name: Ruff
-        run: poetry run ruff check .
+        run: uv run ruff check .
 
   deploy:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
