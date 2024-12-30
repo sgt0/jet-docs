@@ -6,23 +6,40 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
 
-[tool.poetry]
-package-mode = false
+[dependency-groups]
+dev = [
+    "vsaa",
+    "vsadjust",
+    "vsdeband",
+    "vsdehalo",
+    "vsdeinterlace",
+    "vsdenoise",
+    "vsexprtools",
+    "vskernels",
+    "vsmasktools",
+    "vspreview",
+    "vspyplugin",
+    "vsrgtools",
+    "vsscale",
+    "vssource",
+    "vstools",
+    "vstransitions",
 
-[tool.poetry.dependencies]
-python = ">=3.12"
+    "black==24.10.0",
+    "mkdocs-gen-files==0.5.0",
+    "mkdocs-literate-nav==0.6.1",
+    "mkdocs-material==9.5.49",
+    "mkdocs-minify-plugin==0.8.0",
+    "mkdocs-redirects==1.2.2",
+    "mkdocstrings[python]==0.27.0",
+    "mypy==1.14.0",
+    "ruff==0.8.4",
+]
 
-[tool.poetry.group.dev.dependencies]
-black = "^24.10.0"
-mkdocs-gen-files = "^0.5.0"
-mkdocs-literate-nav = "^0.6.1"
-mkdocs-material = "^9.5.49"
-mkdocs-minify-plugin = "^0.8.0"
-mkdocs-redirects = "^1.2.2"
-mkdocstrings = { version = "^0.27.0", extras = ["python"] }
-mypy = "^1.14.0"
-ruff = "^0.8.4"
+[tool.uv]
+package = false
 
+[tool.uv.sources]
 vsaa = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-aa.git", rev = "185f7d96b0ff71e1e730bbbbbd6a1ec749d3a708" }
 vsadjust = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-adjust.git", rev = "feb8f0df35fd6a85db4d8b87045c225808838f61" }
 vsdeband = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-deband.git", rev = "3f4d4ac8cf091bedf1b94d13620e3fcd43c9a171" }
@@ -67,9 +84,9 @@ line-length = 80
 [tool.ruff.lint]
 select = ["ALL"]
 ignore = [
-    "D",       # pydocstyle
-    "FIX002",  # Line contains TODO, consider resolving the issue.
+    "D",      # pydocstyle
+    "FIX002", # Line contains TODO, consider resolving the issue.
     "INP001",
-    "TD002",   # Missing author in TODO.
-    "TD003",   # Missing issue link on the line following this TODO.
+    "TD002",  # Missing author in TODO.
+    "TD003",  # Missing issue link on the line following this TODO.
 ]
