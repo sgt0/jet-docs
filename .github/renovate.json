@@ -9,6 +9,9 @@
   ],
   "automerge": true,
   "automergeStrategy": "rebase",
+  "nix": {
+    "enabled": true
+  },
   "rangeStrategy": "bump",
   "packageRules": [
     {
