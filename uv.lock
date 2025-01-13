@@ -270,7 +270,7 @@ dev = [
     { name = "ruff", specifier = "==0.9.1" },
     { name = "vsaa", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-aa.git?rev=185f7d96b0ff71e1e730bbbbbd6a1ec749d3a708" },
     { name = "vsadjust", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-adjust.git?rev=feb8f0df35fd6a85db4d8b87045c225808838f61" },
-    { name = "vsdeband", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-deband.git?rev=3f4d4ac8cf091bedf1b94d13620e3fcd43c9a171" },
+    { name = "vsdeband", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-deband.git?rev=671c6a8e831b2921f0134d7c77677034154efcc6" },
     { name = "vsdehalo", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-dehalo.git?rev=b7e95b640eabf073ef11c2e5aef3191b42282926" },
     { name = "vsdeinterlace", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-deinterlace.git?rev=f7235eed2fcd4fa7aaf65d9f8b47c4d4215982d5" },
     { name = "vsdenoise", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-denoise.git?rev=76658d4d44284025848d21c5f89e9bebd88da06e" },
@@ -1133,7 +1133,7 @@ dependencies = [
 [[package]]
 name = "vsdeband"
 version = "1.2.2"
-source = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-deband.git?rev=3f4d4ac8cf091bedf1b94d13620e3fcd43c9a171#3f4d4ac8cf091bedf1b94d13620e3fcd43c9a171" }
+source = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-deband.git?rev=671c6a8e831b2921f0134d7c77677034154efcc6#671c6a8e831b2921f0134d7c77677034154efcc6" }
 dependencies = [
     { name = "vapoursynth" },
     { name = "vsaa" },
