@@ -40,7 +40,7 @@ dev = [
 package = false
 
 [tool.uv.sources]
-vsaa = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-aa.git", rev = "185f7d96b0ff71e1e730bbbbbd6a1ec749d3a708" }
+vsaa = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-aa.git", rev = "2e1eb7a3df088ebd6d46543473827fd03fa157b9" }
 vsadjust = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-adjust.git", rev = "feb8f0df35fd6a85db4d8b87045c225808838f61" }
 vsdeband = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-deband.git", rev = "94b0146393d7ccd736098559dae29f907625254f" }
 vsdehalo = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-dehalo.git", rev = "d4143fffaf21b4b50afbff28d7d4cbec11239152" }
