@@ -276,7 +276,7 @@ dev = [
     { name = "vsdenoise", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-denoise.git?rev=58f9d4cd90b75ad6b300fd271f72b4d0507c39ec" },
     { name = "vsexprtools", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-exprtools.git?rev=2e52d8b235b8cf0da648c1ebb01e10db03d3f56f" },
     { name = "vskernels", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-kernels.git?rev=edb6c97f0fde80b92f372cdcd9cfa051a4a51347" },
-    { name = "vsmasktools", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-masktools.git?rev=d5b41e8182e1cf6326b96e8d2709ff7f94b16b07" },
+    { name = "vsmasktools", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-masktools.git?rev=f36f75177f13ff588b91615eb29982266a454757" },
     { name = "vspreview", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-preview.git?rev=fa70ddfb6533ce9f86d75e4eb3aecd16cfdaab4d" },
     { name = "vspyplugin", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-pyplugin.git?rev=9ec87e79ece0c830dd6a643f537f507211b4fc33" },
     { name = "vsrgtools", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-rgtools.git?rev=2975835fe9297a42cfeb116946f34121f5a93624" },
@@ -1228,7 +1228,7 @@ dependencies = [
 [[package]]
 name = "vsmasktools"
 version = "1.3.2"
-source = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-masktools.git?rev=d5b41e8182e1cf6326b96e8d2709ff7f94b16b07#d5b41e8182e1cf6326b96e8d2709ff7f94b16b07" }
+source = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-masktools.git?rev=f36f75177f13ff588b91615eb29982266a454757#f36f75177f13ff588b91615eb29982266a454757" }
 dependencies = [
     { name = "vapoursynth" },
     { name = "vsexprtools" },
