@@ -268,7 +268,7 @@ dev = [
     { name = "mkdocstrings", extras = ["python"], specifier = "==0.27.0" },
     { name = "mypy", specifier = "==1.14.1" },
     { name = "ruff", specifier = "==0.9.3" },
-    { name = "vsaa", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-aa.git?rev=2e1eb7a3df088ebd6d46543473827fd03fa157b9" },
+    { name = "vsaa", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-aa.git?rev=346d7f03a6484ecdd4303da40006d122423b9eb7" },
     { name = "vsadjust", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-adjust.git?rev=feb8f0df35fd6a85db4d8b87045c225808838f61" },
     { name = "vsdeband", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-deband.git?rev=94b0146393d7ccd736098559dae29f907625254f" },
     { name = "vsdehalo", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-dehalo.git?rev=fa4c2a613c054a7fe808be3aa3265d80fd90ae56" },
@@ -1108,7 +1108,7 @@ wheels = [
 [[package]]
 name = "vsaa"
 version = "1.11.2"
-source = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-aa.git?rev=2e1eb7a3df088ebd6d46543473827fd03fa157b9#2e1eb7a3df088ebd6d46543473827fd03fa157b9" }
+source = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-aa.git?rev=346d7f03a6484ecdd4303da40006d122423b9eb7#346d7f03a6484ecdd4303da40006d122423b9eb7" }
 dependencies = [
     { name = "vapoursynth" },
     { name = "vsexprtools" },
