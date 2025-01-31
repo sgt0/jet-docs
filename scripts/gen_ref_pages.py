@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import inspect
+from io import TextIOWrapper
 from pathlib import Path
+from pkgutil import iter_modules
 
 import mkdocs_gen_files
 import vsaa
@@ -87,12 +89,21 @@ for module in MODULES:
         nav[parts] = doc_path.as_posix()
 
         with mkdocs_gen_files.open(full_doc_path, "w") as fd:
+            assert isinstance(fd, TextIOWrapper)
+
             ident = ".".join(parts)
 
-            # TODO: figure out what to do with `__init__.py`'s. They're only
-            # reexporting items from submodules so it becomes cluttered and
-            # duplicated content on the site.
-            if full_doc_path.name == "index.md" and ident not in INCLUDE:
+            if len(parts) == 1:
+                fd.write(f'---\ntitle: {ident}\n---\n\n<span class="doc-section-title">Submodules:</span>\n\n')  # noqa: E501
+                fd.writelines(
+                    f"- [{sm.name}]({sm.name if not sm.ispkg else f'{sm.name}/index'}.md)\n"  # noqa: E501
+                    for sm in iter_modules(module.__path__)
+                    if not sm.name.startswith("_")
+                )
+            elif full_doc_path.name == "index.md" and ident not in INCLUDE:
+                # TODO: figure out what to do with `__init__.py`'s. They're only
+                # reexporting items from submodules so it becomes cluttered and
+                # duplicated content on the site.
                 fd.write(f"---\ntitle: {ident}\n---\n\n{ident}")
             else:
                 fd.write(f"---\ntitle: {ident}\n---\n\n::: {ident}")
