@@ -271,7 +271,7 @@ dev = [
     { name = "vsaa", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-aa.git?rev=346d7f03a6484ecdd4303da40006d122423b9eb7" },
     { name = "vsadjust", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-adjust.git?rev=feb8f0df35fd6a85db4d8b87045c225808838f61" },
     { name = "vsdeband", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-deband.git?rev=94b0146393d7ccd736098559dae29f907625254f" },
-    { name = "vsdehalo", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-dehalo.git?rev=fa4c2a613c054a7fe808be3aa3265d80fd90ae56" },
+    { name = "vsdehalo", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-dehalo.git?rev=05368c7bd230374c5760964e590205d26bb41a6c" },
     { name = "vsdeinterlace", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-deinterlace.git?rev=192b94f2915e3a3b958c7d329b4d102a81b92f62" },
     { name = "vsdenoise", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-denoise.git?rev=457a174c889a3885469325ff46471c986c8ed83e" },
     { name = "vsexprtools", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-exprtools.git?rev=2e52d8b235b8cf0da648c1ebb01e10db03d3f56f" },
@@ -1150,7 +1150,7 @@ dependencies = [
 [[package]]
 name = "vsdehalo"
 version = "1.9.2"
-source = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-dehalo.git?rev=fa4c2a613c054a7fe808be3aa3265d80fd90ae56#fa4c2a613c054a7fe808be3aa3265d80fd90ae56" }
+source = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-dehalo.git?rev=05368c7bd230374c5760964e590205d26bb41a6c#05368c7bd230374c5760964e590205d26bb41a6c" }
 dependencies = [
     { name = "vapoursynth" },
     { name = "vsaa" },
