@@ -42,7 +42,7 @@ package = false
 [tool.uv.sources]
 vsaa = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-aa.git", rev = "70a6bf7b4bce440ebdf1e5b195baca4590aed7b4" }
 vsadjust = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-adjust.git", rev = "feb8f0df35fd6a85db4d8b87045c225808838f61" }
-vsdeband = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-deband.git", rev = "7e967541a7ee1ba95c26a29169080230d6f6dea5" }
+vsdeband = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-deband.git", rev = "3ed8593198e2110bfc4b2cbdff2b18963165873e" }
 vsdehalo = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-dehalo.git", rev = "84d809fb6c877ef6968a26da2be67c18678299fe" }
 vsdeinterlace = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-deinterlace.git", rev = "afb4f62abc59595ddaae894e4e13c317720943e4" }
 vsdenoise = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-denoise.git", rev = "be8199bb52393d14cfd3a2e348dfe88df9dfb485" }
