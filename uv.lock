@@ -269,7 +269,7 @@ dev = [
     { name = "mypy", specifier = "==1.15.0" },
     { name = "ruff", specifier = "==0.9.6" },
     { name = "vsaa", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-aa.git?rev=efaab32737a5330412549aa430bd3741ce5922a2" },
-    { name = "vsadjust", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-adjust.git?rev=feb8f0df35fd6a85db4d8b87045c225808838f61" },
+    { name = "vsadjust", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-adjust.git?rev=e4e2c5ac2cad8bd9faecb9a46bcebc9e6c961c3b" },
     { name = "vsdeband", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-deband.git?rev=f30601e38c9543080fc938ac613ff2de1c82d866" },
     { name = "vsdehalo", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-dehalo.git?rev=84d809fb6c877ef6968a26da2be67c18678299fe" },
     { name = "vsdeinterlace", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-deinterlace.git?rev=afb4f62abc59595ddaae894e4e13c317720943e4" },
@@ -1154,14 +1154,11 @@ dependencies = [
 [[package]]
 name = "vsadjust"
 version = "0.0.0"
-source = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-adjust.git?rev=feb8f0df35fd6a85db4d8b87045c225808838f61#feb8f0df35fd6a85db4d8b87045c225808838f61" }
+source = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-adjust.git?rev=e4e2c5ac2cad8bd9faecb9a46bcebc9e6c961c3b#e4e2c5ac2cad8bd9faecb9a46bcebc9e6c961c3b" }
 dependencies = [
     { name = "numpy" },
     { name = "vapoursynth" },
-    { name = "vsexprtools" },
-    { name = "vskernels" },
-    { name = "vsmasktools" },
-    { name = "vstools" },
+    { name = "vsjetpack" },
     { name = "vstransitions" },
 ]
 
