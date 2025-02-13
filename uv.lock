@@ -280,7 +280,7 @@ dev = [
     { name = "vspreview", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-preview.git?rev=8f9f6663a6aad1397b1485f1d0997bd7e003b9fa" },
     { name = "vspyplugin", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-pyplugin.git?rev=a658c500e944ff9f9a55e6f5a65cec00bcc328a0" },
     { name = "vsrgtools", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-rgtools.git?rev=3b18cbfc7306680c60138d7c1e5b461b368805a0" },
-    { name = "vsscale", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-scale.git?rev=b0714ab0b7902f13cd8dc08f331426e84985caf6" },
+    { name = "vsscale", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-scale.git?rev=c3006ae8e6e48be9168e84a6af234cc7eaf9da43" },
     { name = "vssource", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-source.git?rev=d9adfdfbc91d39341b8cd81c52479524f05ed4f3" },
     { name = "vstools", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-tools.git?rev=881b66a2f3e8843b838bdd36f28bf9b49a38f223" },
     { name = "vstransitions", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-transitions.git?rev=38d76e15159bae0a92c666346f65d75553291497" },
@@ -1325,8 +1325,8 @@ dependencies = [
 
 [[package]]
 name = "vsscale"
-version = "2.3.1"
-source = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-scale.git?rev=b0714ab0b7902f13cd8dc08f331426e84985caf6#b0714ab0b7902f13cd8dc08f331426e84985caf6" }
+version = "2.3.2"
+source = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-scale.git?rev=c3006ae8e6e48be9168e84a6af234cc7eaf9da43#c3006ae8e6e48be9168e84a6af234cc7eaf9da43" }
 dependencies = [
     { name = "vapoursynth" },
     { name = "vsaa" },
