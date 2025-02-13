@@ -55,7 +55,7 @@ vsrgtools = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-rgtools.gi
 vsscale = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-scale.git", rev = "b0714ab0b7902f13cd8dc08f331426e84985caf6" }
 vssource = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-source.git", rev = "7898648b3d261ad4c1f6013651262b3974261329" }
 vstools = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-tools.git", rev = "881b66a2f3e8843b838bdd36f28bf9b49a38f223" }
-vstransitions = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-transitions.git", rev = "5f4cfc3d67f69dc78a9026a366b1dd0316297ac6" }
+vstransitions = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-transitions.git", rev = "38d76e15159bae0a92c666346f65d75553291497" }
 
 [tool.mypy]
 check_untyped_defs = true
