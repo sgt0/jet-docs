@@ -1,4 +1,5 @@
 version = 1
+revision = 1
 requires-python = ">=3.12"
 
 [[package]]
@@ -277,13 +278,22 @@ dev = [
     { name = "vsexprtools", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-exprtools.git?rev=13db64ac02e1bac210696ebded79dd7c95f4febc" },
     { name = "vskernels", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-kernels.git?rev=6a5c99417408a18ce7b253dac638ababc2d9fc81" },
     { name = "vsmasktools", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-masktools.git?rev=6bf76193d07d9a2e25b50ca35d726e5e5bb2dccc" },
-    { name = "vspreview", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-preview.git?rev=03a721e23352b3030c47a6b1018b11147df32059" },
+    { name = "vspreview", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-preview.git?rev=b5ac6cc8ba5810fa55eaf51096bccf82a8dca96f" },
     { name = "vspyplugin", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-pyplugin.git?rev=a658c500e944ff9f9a55e6f5a65cec00bcc328a0" },
     { name = "vsrgtools", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-rgtools.git?rev=3b18cbfc7306680c60138d7c1e5b461b368805a0" },
     { name = "vsscale", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-scale.git?rev=c3006ae8e6e48be9168e84a6af234cc7eaf9da43" },
     { name = "vssource", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-source.git?rev=d9adfdfbc91d39341b8cd81c52479524f05ed4f3" },
     { name = "vstools", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-tools.git?rev=8a05944d7dc3024e8c20fe581c7b05f85c930e75" },
     { name = "vstransitions", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-transitions.git?rev=38d76e15159bae0a92c666346f65d75553291497" },
+]
+
+[[package]]
+name = "jetpytools"
+version = "1.2.3"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/cb/f8/7b05f45fcc24b85f3d53bef919f29527ce02b26897e09670cccd97f66459/jetpytools-1.2.3.tar.gz", hash = "sha256:6121704025a32487116aedd1a9be3eda92514ff21361e08bf178ddc0a6f3cbd0", size = 24589 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/f6/e7/d7c077c137c587b4a944aa89bbd5589bb71cccc6aea6183922ecd36dfdb5/jetpytools-1.2.3-py3-none-any.whl", hash = "sha256:d1fb1bf991b2e74febe8eea21f55d5bc665dd06537c29da5ac0bd99a139c1919", size = 30956 },
 ]
 
 [[package]]
@@ -1286,8 +1296,9 @@ dependencies = [
 [[package]]
 name = "vspreview"
 version = "0.11.1"
-source = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-preview.git?rev=03a721e23352b3030c47a6b1018b11147df32059#03a721e23352b3030c47a6b1018b11147df32059" }
+source = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-preview.git?rev=b5ac6cc8ba5810fa55eaf51096bccf82a8dca96f#b5ac6cc8ba5810fa55eaf51096bccf82a8dca96f" }
 dependencies = [
+    { name = "jetpytools" },
     { name = "matplotlib" },
     { name = "numpy" },
     { name = "pillow", marker = "sys_platform == 'win32'" },
