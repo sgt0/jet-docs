@@ -40,7 +40,7 @@ jobs:
         run: nix develop --command uv sync --locked
 
       - name: Restore build cache
-        uses: actions/cache/restore@v4.2.1
+        uses: actions/cache/restore@v4.2.2
         with:
           key: mkdocs-material-${{ hashfiles('.cache/**') }}
           path: .cache
@@ -61,7 +61,7 @@ jobs:
           path: site
 
       - name: Save build cache
-        uses: actions/cache/save@v4.2.1
+        uses: actions/cache/save@v4.2.2
         with:
           key: mkdocs-material-${{ hashfiles('.cache/**') }}
           path: .cache
