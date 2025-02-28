@@ -33,7 +33,7 @@ dev = [
     "mkdocs-redirects==1.2.2",
     "mkdocstrings[python]==0.28.2",
     "mypy==1.15.0",
-    "ruff==0.9.8",
+    "ruff==0.9.9",
 ]
 
 [tool.uv]
