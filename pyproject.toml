@@ -31,7 +31,7 @@ dev = [
     "mkdocs-material==9.6.7",
     "mkdocs-minify-plugin==0.8.0",
     "mkdocs-redirects==1.2.2",
-    "mkdocstrings[python]==0.28.3",
+    "mkdocstrings[python]==0.29.0",
     "mypy==1.15.0",
     "ruff==0.9.10",
 ]
