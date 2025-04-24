@@ -28,7 +28,7 @@ jobs:
           enable-cache: true
 
       - name: Install Nix
-        uses: DeterminateSystems/nix-installer-action@v16
+        uses: DeterminateSystems/nix-installer-action@v17
 
       - name: Set up Nix cache
         uses: cachix/cachix-action@v16
@@ -78,7 +78,7 @@ jobs:
           enable-cache: true
 
       - name: Install Nix
-        uses: DeterminateSystems/nix-installer-action@v16
+        uses: DeterminateSystems/nix-installer-action@v17
 
       - name: Set up Nix cache
         uses: cachix/cachix-action@v16
@@ -104,7 +104,7 @@ jobs:
           enable-cache: true
 
       - name: Install Nix
-        uses: DeterminateSystems/nix-installer-action@v16
+        uses: DeterminateSystems/nix-installer-action@v17
 
       - name: Set up Nix cache
         uses: cachix/cachix-action@v16
