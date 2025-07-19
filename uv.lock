@@ -295,7 +295,7 @@ dev = [
     { name = "vsexprtools", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-exprtools.git?rev=13db64ac02e1bac210696ebded79dd7c95f4febc" },
     { name = "vskernels", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-kernels.git?rev=6a5c99417408a18ce7b253dac638ababc2d9fc81" },
     { name = "vsmasktools", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-masktools.git?rev=6bf76193d07d9a2e25b50ca35d726e5e5bb2dccc" },
-    { name = "vspreview", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-preview.git?rev=c7532ad28012f8002503443e065db91c30cec557" },
+    { name = "vspreview", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-preview.git?rev=d41a3c8545e622d67e8bb108e546008df3b2a69a" },
     { name = "vspyplugin", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-pyplugin.git?rev=3182a1b63b78e8a4cb33f4864c1175e081268950" },
     { name = "vsrgtools", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-rgtools.git?rev=3b18cbfc7306680c60138d7c1e5b461b368805a0" },
     { name = "vsscale", git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-scale.git?rev=c3006ae8e6e48be9168e84a6af234cc7eaf9da43" },
@@ -1300,7 +1300,7 @@ dependencies = [
 [[package]]
 name = "vspreview"
 version = "0.14.0"
-source = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-preview.git?rev=c7532ad28012f8002503443e065db91c30cec557#c7532ad28012f8002503443e065db91c30cec557" }
+source = { git = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-preview.git?rev=d41a3c8545e622d67e8bb108e546008df3b2a69a#d41a3c8545e622d67e8bb108e546008df3b2a69a" }
 dependencies = [
     { name = "jetpytools" },
     { name = "matplotlib" },
